@@ -8,7 +8,10 @@ suicide.js is a script written in javascript designed to be used with node-hill 
 here are some questions you might have and answers to those questions
 
 _Q: How do I install it?_
+
 a: just stick it in your `user_scripts` directory in the directory where your node-hill server is.
 
+
 _Q: How do I use it?_
+
 a: after you've installed it, it will load with all your other user scripts. then, just type `/suicide` into chat and you will die. simple as that
