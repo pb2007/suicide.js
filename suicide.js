@@ -14,7 +14,11 @@ var randomnumber;
 
 Game.command("suicide", (p, i) => {
 	randomnumber = Math.floor(Math.random() * 47);
-	p.message(deathmsg[randomnumber]);
-	p.kill();
+	if ( p.speed == 0 ) {
+		p.message("You can't do that right now!");
+	} else {
+		p.message(deathmsg[randomnumber]);
+		p.kill();
+	}
 });
 
